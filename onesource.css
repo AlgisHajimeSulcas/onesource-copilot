@@ -184,18 +184,18 @@
   --fds-color-data-nuetral: #b0b0cd;
   /* Use when only one color is required in a chart. */
   --fds-color-data-brand: #7777f7;
-}
 
-.bg-light {
-  background-color: var(--fds-global-color-neutral-5) !important;
-}
-
-/* Buttons */
-.button-neutral {
-  background-color: var(--fds-global-color-neutral-20) !important;
-  color: var(--fds-global-color-neutral-140) !important;
-
-  &:hover {
-    background-color: var(--fds-global-color-neutral-20);
+  .bg-light {
+    background-color: var(--fds-global-color-neutral-5) !important;
+  }
+  
+  /* Buttons */
+  .button-neutral {
+    background-color: var(--fds-global-color-neutral-20) !important;
+    color: var(--fds-global-color-neutral-140) !important;
+  
+    &:hover {
+      background-color: var(--fds-global-color-neutral-20);
+    }
   }
 }
