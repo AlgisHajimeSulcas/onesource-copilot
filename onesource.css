@@ -7,11 +7,11 @@
   margin-right: 0 !important;
 }
 
-.form-override > .CustomForm {
+.form-override .CustomForm {
   padding: 0 !important;
 }
 
-.form-override > .CustomForm > .form-group {
+.form-override .CustomForm .form-group {
   margin-bottom: 12px;
 }
 /* .formOverride {
