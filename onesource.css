@@ -1,5 +1,10 @@
+/* Overridex */
 .bg-light {
   background-color: #f3f3f7 !important;
+}
+.no-gutters {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /* Buttons */
