@@ -8,16 +8,12 @@
 }
 
 .formOverride {
-  .CustomForm {
-    padding: 0 !important;
-    
-    .form-group {
-      margin-bottom: 12px;
-    }
-  }
+  min-width: calc(100% + 2rem);
+  max-width: calc(100% + 2rem);
+  margin: -1rem;
 }
 .footerContainer {
-  padding: 12px !important;
+  padding: 12px;
 }
 
 /* Buttons */
