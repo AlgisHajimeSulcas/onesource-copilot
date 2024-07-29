@@ -1,5 +1,6 @@
 /* Variables */
-/* Base value for the primary brand color */
+:root {
+  /* Base value for the primary brand color */
   --fds-global-color-primary-40: #5959eb;
   --fds-global-color-primary-0: #e4e4ff;
   --fds-global-color-primary-5: #ccccff;
@@ -183,7 +184,7 @@
   --fds-color-data-nuetral: #b0b0cd;
   /* Use when only one color is required in a chart. */
   --fds-color-data-brand: #7777f7;
-
+}
 
 .bg-light {
   background-color: var(--fds-global-color-neutral-5) !important;
