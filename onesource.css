@@ -1,3 +1,200 @@
+// Variables
+/* Base value for the primary brand color */
+  --fds-global-color-primary-40: #5959eb;
+  --fds-global-color-primary-0: #e4e4ff;
+  --fds-global-color-primary-5: #ccccff;
+  --fds-global-color-primary-10: #b1b1ff;
+  --fds-global-color-primary-20: #9595fe;
+  --fds-global-color-primary-30: #7777f7;
+  --fds-global-color-primary-50: #3535cd;
+  --fds-global-color-primary-60: #1717ab;
+  --fds-global-color-primary-70: #020288;
+  --fds-global-color-primary-80: #000066;
+  /* Pure white color */
+  --fds-global-color-neutral-0: #ffffff;
+  /* This is the base value for Neutral colors */
+  --fds-global-color-neutral-5: #f3f3f7;
+  --fds-global-color-neutral-10: #ebebf1;
+  --fds-global-color-neutral-20: #d7d7e4;
+  --fds-global-color-neutral-30: #c4c4d8;
+  --fds-global-color-neutral-40: #b0b0cd;
+  --fds-global-color-neutral-50: #9f9fc1;
+  --fds-global-color-neutral-60: #8b8bb8;
+  --fds-global-color-neutral-70: #7a7aae;
+  --fds-global-color-neutral-80: #6767a5;
+  --fds-global-color-neutral-90: #59599a;
+  --fds-global-color-neutral-100: #4c4c8e;
+  --fds-global-color-neutral-110: #3f3f82;
+  --fds-global-color-neutral-120: #343476;
+  --fds-global-color-neutral-130: #292968;
+  --fds-global-color-neutral-140: #1f1f59;
+  --fds-global-color-neutral-150: #16164a;
+  --fds-global-color-neutral-160: #0f0f3b;
+  /* This is the darkest value in this color group. It replaces pure black */
+  --fds-global-color-neutral-170: #09092d;
+  --fds-global-color-success-30: #3cbf59;
+  --fds-global-color-success-0: #d7ffe0;
+  --fds-global-color-success-5: #aaefb9;
+  --fds-global-color-success-10: #81df96;
+  --fds-global-color-success-20: #5ccf76;
+  /* Base value for success */
+  --fds-global-color-success-40: #23ab41;
+  --fds-global-color-success-50: #0e972c;
+  --fds-global-color-success-60: #00831d;
+  --fds-global-color-success-70: #007018;
+  --fds-global-color-success-80: #005c14;
+  --fds-global-color-caution-30: #f9cc2b;
+  --fds-global-color-caution-0: #fff8de;
+  --fds-global-color-caution-5: #ffeca9;
+  --fds-global-color-caution-10: #fee076;
+  --fds-global-color-caution-20: #fcd549;
+  /* Base value for caution */
+  --fds-global-color-caution-40: #f3c316;
+  --fds-global-color-caution-50: #e7b707;
+  --fds-global-color-caution-60: #cb9f00;
+  --fds-global-color-caution-70: #967500;
+  --fds-global-color-caution-80: #665000;
+  --fds-global-color-warning-30: #ff773e;
+  --fds-global-color-warning-0: #ffe3d7;
+  --fds-global-color-warning-5: #ffc4ab;
+  --fds-global-color-warning-10: #ffa680;
+  --fds-global-color-warning-20: #ff8c5b;
+  /* Base value for warning */
+  --fds-global-color-warning-40: #f96324;
+  --fds-global-color-warning-50: #ed5311;
+  --fds-global-color-warning-60: #d34204;
+  --fds-global-color-warning-70: #a13101;
+  --fds-global-color-warning-80: #752300;
+  --fds-global-color-error-30: #f64b4c;
+  --fds-global-color-error-0: #ffdede;
+  --fds-global-color-error-5: #feb9ba;
+  --fds-global-color-error-10: #fc9294;
+  --fds-global-color-error-20: #f96d6e;
+  /* Base value for error or severe danger */
+  --fds-global-color-error-40: #f22f31;
+  --fds-global-color-error-50: #e01517;
+  --fds-global-color-error-60: #d40d0f;
+  --fds-global-color-error-70: #aa0608;
+  --fds-global-color-error-80: #850305;
+  --fds-global-color-info-30: #0e9be0;
+  --fds-global-color-info-0: #def4ff;
+  --fds-global-color-info-5: #a5dcf7;
+  --fds-global-color-info-10: #70c5f0;
+  --fds-global-color-info-20: #3db0e8;
+  /* Base value for information */
+  --fds-global-color-info-40: #0383c3;
+  --fds-global-color-info-50: #006ea5;
+  --fds-global-color-info-60: #005b88;
+  --fds-global-color-info-70: #00476a;
+  --fds-global-color-info-80: #00334d;
+  /* Default opacity value. Use this token for overlay effects in your app */
+  --fds-global-opacity-default: #09092db2;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-10: #53d5c3;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-1: #7777f7;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-2: #65eba5;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-3: #ff8d96;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-4: #f3e649;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-5: #bfa1ff;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-6: #a9e554;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-7: #f78cf7;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-8: #7ce1f8;
+  /* For categorical data visualizations only. Follow the numbered sequence order. */
+  --fds-color-data-categorical-9: #ffac5d;
+  /* For sequential data visualizations only. The lightest shade in the sequential color palette.  It represents the lowest number on a chart. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-1: #ffe5e8;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-2: #ffaab1;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-3: #ff8d96;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-4: #bc70a8;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-5: #7852bb;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-6: #5643c4;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-7: #3535cd;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-8: #262698;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-coral-9: #181862;
+  /* For sequential data visualizations only. The darkest shade in the sequential palette. It represents the highest number on a chart. */
+  --fds-color-data-sequential-coral-10: #09092d;
+  /* For sequential data visualizations only. The lightest shade in the sequential color palette.  It represents the lowest number on a chart. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-1: #d0fbe4;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-2: #8cf0bc;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-3: #7acbbf;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-4: #69a6c2;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-5: #5880c6;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-6: #465aca;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-7: #3535cd;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-8: #262698;
+  /* For sequential data visualizations only. Apply by following or alternating the numbered sequence order from lightest to darkest. */
+  --fds-color-data-sequential-mint-9: #181862;
+  /* For sequential data visualizations only. The darkest shade in the sequential palette. It represents the highest number on a chart. */
+  --fds-color-data-sequential-mint-10: #09092d;
+  /* For diverging data visualization only. It represents one of the extremes of the palette. */
+  --fds-color-data-diverging-1: #863b71;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and the extremes. */
+  --fds-color-data-diverging-2: #c16383;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and the extremes. */
+  --fds-color-data-diverging-3: #ff8d96;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and the extremes. */
+  --fds-color-data-diverging-4: #ffb2a9;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and the extremes. */
+  --fds-color-data-diverging-5: #fed7bd;
+  /* A color used to emphasize the midpoint or zero value in a diverging data visualization. */
+  --fds-color-data-diverging-midpoint-6: #fdf9ce;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and emphasize the extremes. */
+  --fds-color-data-diverging-8: #8cf0bc;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and emphasize the extremes. */
+  --fds-color-data-diverging-7: #d6f6c8;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and emphasize the extremes. */
+  --fds-color-data-diverging-9: #78d1b3;
+  /* For diverging data visualization only. Follow the numbered sequence order. Always respect the midpoint and emphasize the extremes. */
+  --fds-color-data-diverging-10: #5ca7a6;
+  /* For diverging data visualization only. It represents one of the extremes of the palette. */
+  --fds-color-data-diverging-11: #3f7c99;
+  /* For data visualization communicating negative information, such as negative trend or risk. Use sparingly. */
+  --fds-color-data-status-error: #f22f31;
+  /* For data visualizations communicating positive information, such as positive trends or success. Use sparingly. */
+  --fds-color-data-status-success: #23ab41;
+  /* For data visualizations communicating caution, such as low-risk statuses. Use sparingly. */
+  --fds-color-data-status-caution: #f3c316;
+  /* For data visualizations communicating warnings, such as alerts or moderate danger. Use sparingly. */
+  --fds-color-data-status-caution: #f96324;
+  /* A secondary color for data visualization to communicate past, inactive, or secondary-level data. */
+  --fds-color-data-nuetral: #b0b0cd;
+  /* Use when only one color is required in a chart. */
+  --fds-color-data-brand: #7777f7;
+
+
 .bg-light {
   background-color: #F3F3F7 !important;
+}
+
+// Buttons
+.button-neutral {
+  background-color: var(--fds-global-color-neutral-10);
+  color: var(--fds-global-color-neutral-140);
+
+  &:hover {
+    background-color: var(--fds-global-color-neutral-20);
+  }
 }
