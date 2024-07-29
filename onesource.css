@@ -191,8 +191,8 @@
 
 // Buttons
 .button-neutral {
-  background-color: var(--fds-global-color-neutral-10);
-  color: var(--fds-global-color-neutral-140);
+  background-color: var(--fds-global-color-neutral-20) !important;
+  color: var(--fds-global-color-neutral-140) !important;
 
   &:hover {
     background-color: var(--fds-global-color-neutral-20);
