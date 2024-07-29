@@ -11,7 +11,13 @@
   min-width: calc(100% + 2rem);
   max-width: calc(100% + 2rem);
   margin: -1rem;
+  margin-top: -3.5rem;
 }
+
+.formOverride:first-child {
+  margin-top: -1rem;
+}
+
 .footerContainer {
   padding: 12px;
 }
