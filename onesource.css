@@ -7,6 +7,16 @@
   margin-right: 0 !important;
 }
 
+.formOverride {
+  .CustomForm {
+    padding: 0 !important;
+    
+    .form-group {
+      margin-bottom: 12px;
+    }
+  }
+}
+
 /* Buttons */
 .button-neutral {
   background-color: #d7d7e4 !important;
