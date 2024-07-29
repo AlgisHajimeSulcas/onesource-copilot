@@ -16,6 +16,9 @@
     }
   }
 }
+.footerContainer {
+  padding: 12px !important;
+}
 
 /* Buttons */
 .button-neutral {
