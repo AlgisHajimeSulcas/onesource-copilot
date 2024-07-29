@@ -1,4 +1,4 @@
-// Variables
+/* Variables */
 /* Base value for the primary brand color */
   --fds-global-color-primary-40: #5959eb;
   --fds-global-color-primary-0: #e4e4ff;
@@ -186,10 +186,10 @@
 
 
 .bg-light {
-  background-color: #F3F3F7 !important;
+  background-color: var(--fds-global-color-neutral-5) !important;
 }
 
-// Buttons
+/* Buttons */
 .button-neutral {
   background-color: var(--fds-global-color-neutral-20) !important;
   color: var(--fds-global-color-neutral-140) !important;
