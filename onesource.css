@@ -7,7 +7,14 @@
   margin-right: 0 !important;
 }
 
-.formOverride {
+.form-override > .CustomForm {
+  padding: 0 !important;
+}
+
+.form-override > .CustomForm > .form-group {
+  margin-bottom: 12px;
+}
+/* .formOverride {
   min-width: calc(100% + 2rem);
   max-width: calc(100% + 2rem);
   margin: -1rem;
@@ -16,7 +23,7 @@
 
 .formOverride--first {
   margin-top: -1rem;
-}
+} */
 
 .footerContainer {
   padding: 12px;
@@ -35,9 +42,4 @@
 /* Text */
 .text-primary {
   color: #1F1F59;
-}
-
-.CustomForm {
-  background-color: red !important;
-  padding: 0 !important;
 }
