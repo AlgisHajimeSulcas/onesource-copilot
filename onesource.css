@@ -12,21 +12,18 @@
 }
 
 .CustomForm .form-group {
-  margin-bottom: 12px;
-}
-/* .formOverride {
-  min-width: calc(100% + 2rem);
-  max-width: calc(100% + 2rem);
-  margin: -1rem;
-  margin-top: -3.5rem;
+  margin-bottom: 0;
 }
 
-.formOverride--first {
-  margin-top: -1rem;
+.form-override .row {
+  margin-bottom: 0 !important;  
+}
+/* .form-override--query {
+  margin-top: -34px;
 } */
 
-.form-override--query {
-  margin-top: -34px;
+.form-override--query  {
+  margin-top: 12px;
 }
 
 .footerContainer {
