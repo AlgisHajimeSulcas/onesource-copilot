@@ -46,8 +46,6 @@
 .text-primary-50 {
   color: #3535CD;
    a {
-    color: #3535CD;
+    color: #3535CD !important;
   }
 }
-
-/*  */
