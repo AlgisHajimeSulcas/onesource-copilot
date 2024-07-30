@@ -18,12 +18,12 @@
 .form-override .row {
   margin-bottom: 0 !important;  
 }
-/* .form-override--query {
-  margin-top: -34px;
-} */
+.form-override--query .form-label {
+  display: none;
+}
 
 .form-override--query  {
-  margin-top: 12px;
+  margin-top: 2px;
 }
 
 .footerContainer {
