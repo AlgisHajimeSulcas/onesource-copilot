@@ -29,6 +29,12 @@
   padding: 12px;
 }
 
+.reset-paragraph {
+  p {
+    margin: 0;
+  }
+}
+
 /* Buttons */
 .button-neutral {
   background-color: #EBEBF1 !important;
