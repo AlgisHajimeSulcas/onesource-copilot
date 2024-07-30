@@ -33,6 +33,21 @@
   margin: 0 !important;
 }
 
+/* Welcome page submit buttons */
+.PQ5Wm0LYQRIALGCv5sSp {
+  border: none;
+
+  button[type="button"] {
+    display: none;
+  }
+  
+  /* Make the type="submit" button full-width */
+  button[type="submit"] {
+      width: 100%;
+      display: block;
+  }
+}
+
 /* Buttons */
 .button-neutral {
   background-color: #EBEBF1 !important;
