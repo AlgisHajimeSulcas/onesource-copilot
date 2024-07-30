@@ -25,6 +25,10 @@
   margin-top: -1rem;
 } */
 
+.form-override--query {
+  margin-top: -34px;
+}
+
 .footerContainer {
   padding: 12px;
 }
