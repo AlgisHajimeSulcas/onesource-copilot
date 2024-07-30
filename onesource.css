@@ -29,10 +29,8 @@
   padding: 12px;
 }
 
-.reset-paragraph {
-  p {
-    margin: 0 !important;
-  }
+.reset-paragraph > p {
+  margin: 0 !important;
 }
 
 /* Buttons */
