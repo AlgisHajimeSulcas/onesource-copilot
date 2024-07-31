@@ -9,10 +9,14 @@
 
 .CustomForm {
   padding: 0 !important;
-}
 
-.CustomForm .form-group {
-  margin-bottom: 0;
+  .form-group {
+    margin-bottom: 0;
+  }
+  
+  button[type="submit"] {
+      width: 100%;
+  }
 }
 
 .form-override {
