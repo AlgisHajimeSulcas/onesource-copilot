@@ -37,20 +37,11 @@
   margin: 0 !important;
 }
 
-/* Welcome page submit buttons */
-/* .PQ5Wm0LYQRIALGCv5sSp {
-  border: none;
-
-  button[type="button"] {
-    display: none;
-  } */
-  
-  /* Make the type="submit" button full-width */
-/*   button[type="submit"] {
-      width: 100%;
-      display: block;
-  }
-} */
+.link-sm {
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 12px;
+}
 
 /* Buttons */
 .button-neutral {
